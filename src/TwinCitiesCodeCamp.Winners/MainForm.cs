@@ -12,7 +12,7 @@ public partial class MainForm
 
 	protected override void Dispose(bool disposing)
 	{
-		if (disposing && (this.components is not null))
+		if (disposing && this.components is not null)
 		{
 			this.components.Dispose();
 			this.random.Dispose();
